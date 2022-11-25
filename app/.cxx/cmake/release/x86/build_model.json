@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master",
+      "sdkFolder": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app",
+      "makeFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\.cxx",
+      "cxxFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393",
+      "ndkVersion": "25.1.8937393",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "soFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\release\\lib",
+    "objFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\release\\obj",
+    "jsonFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release",
+    "gradleBuildOutputFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cxx\\release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86",
+  "jsonFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cxx\\release\\x86",
+  "objFolder": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86",
+  "buildCommandFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\\build_command.txt",
+  "buildOutputFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\\build_output.txt",
+  "modelOutputFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cxx\\release\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cxx\\release\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cxx\\release\\x86\\build_generation_state.json",
+    "cacheKeyFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cxx\\release\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cxx\\release\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\\compile_commands.json"
+}

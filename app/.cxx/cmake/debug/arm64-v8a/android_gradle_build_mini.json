@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\build\\cmake\\android.toolchain.cmake",
+    "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "buzzer-Debug-arm64-v8a": {
+      "artifactName": "buzzer",
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" buzzer",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libbuzzer.so"
+    },
+    "7segment-Debug-arm64-v8a": {
+      "artifactName": "7segment",
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" 7segment",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\lib7segment.so"
+    },
+    "lcd-Debug-arm64-v8a": {
+      "artifactName": "lcd",
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" lcd",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\liblcd.so"
+    }
+  }
+}

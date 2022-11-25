@@ -1,0 +1,78 @@
+{
+  "stringTable": {
+    "0": "C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/release/x86",
+    "1": "--target=i686-none-linux-android19 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -D_7segment_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O3 -DNDEBUG -fPIC",
+    "2": "--target=i686-none-linux-android19 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dlcd_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O3 -DNDEBUG -fPIC",
+    "3": "--target=i686-none-linux-android19 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dbuzzer_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O3 -DNDEBUG -fPIC"
+  },
+  "buildFiles": [
+    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\compiler_id.cmake",
+    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android-legacy.toolchain.cmake",
+    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\build\\cmake\\android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\" clean"
+  ],
+  "buildTargetsCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "buzzer-Release-x86": {
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\" buzzer",
+      "buildType": "release",
+      "toolchain": "3756188429",
+      "abi": "x86",
+      "artifactName": "buzzer",
+      "files": [
+        {
+          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\buzzer.c",
+          "flagsOrdinal": 3,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\libbuzzer.so"
+    },
+    "7segment-Release-x86": {
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\" 7segment",
+      "buildType": "release",
+      "toolchain": "3756188429",
+      "abi": "x86",
+      "artifactName": "7segment",
+      "files": [
+        {
+          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\7segment.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\lib7segment.so"
+    },
+    "lcd-Release-x86": {
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\release\\x86\" lcd",
+      "buildType": "release",
+      "toolchain": "3756188429",
+      "abi": "x86",
+      "artifactName": "lcd",
+      "files": [
+        {
+          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\lcd.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\release\\obj\\x86\\liblcd.so"
+    }
+  },
+  "toolchains": {
+    "3756188429": {
+      "cCompilerExecutable": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

@@ -1,0 +1,7 @@
+# ninja log v5
+2	108	691082342	CMakeFiles/buzzer.dir/buzzer.c.o	174f37a39d31b435
+4	115	691082342	CMakeFiles/lcd.dir/lcd.c.o	4354e126bc5ba63
+0	121	691082342	CMakeFiles/7segment.dir/7segment.c.o	382b29103178dfb
+109	148	691082342	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/libbuzzer.so	d6ada561f46774c1
+115	151	691082342	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/liblcd.so	2fdbb60093a35606
+151	189	691082342	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/lib7segment.so	1f83ef03ab198ad5

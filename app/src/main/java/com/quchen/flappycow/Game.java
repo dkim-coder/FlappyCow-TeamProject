@@ -24,7 +24,20 @@ import android.os.Handler;
 import android.os.Message;
 import android.widget.Toast;
 
+/* com.quchen.flappycow 패키지 내 Game 클래스이고 BaseGameActivity를 상속 받아서 사용한다. */
 public class Game extends BaseGameActivity{
+    // 7segment 라이브러리 load 하기
+    // lcd 라이브러리 load 하기
+    static {
+        System.loadLibrary("7segment");
+        System.loadLibrary("lcd");
+    }
+
+    public native int SSegmentWrite(int data);
+    public static native int LcdWrite(String s1, String s2);
+    /* --------------------------------------------------------------- */
+
+
     /** Name of the SharedPreference that saves the medals */
     public static final String coin_save = "coin_save";
     
@@ -88,6 +101,9 @@ public class Game extends BaseGameActivity{
         setContentView(view);
         initMusicPlayer();
         loadCoins();
+
+        // insert 부분
+        SSegmentWrite(this.coins);
         if(gameOverCounter % GAMES_PER_AD == 0) {
             setupAd();
         }
@@ -140,6 +156,8 @@ public class Game extends BaseGameActivity{
             Toast.makeText(this, "Please check your Google Services", Toast.LENGTH_LONG).show();
         }
         super.onResume();
+        // insert 부분
+        LcdWrite("game start", "enjoy game");
     }
     
     /**
@@ -178,6 +196,8 @@ public class Game extends BaseGameActivity{
                 handler.sendMessage(Message.obtain(handler,1,R.string.toast_achievement_50_coins, MyHandler.SHOW_TOAST));
             }
         }
+        // 삽입해서 수정한 부분
+        SSegmentWrite(this.coins);
     }
 
     /**
@@ -244,6 +264,8 @@ public class Game extends BaseGameActivity{
         public void handleMessage(Message msg) {
             switch(msg.what){
                 case GAME_OVER_DIALOG:
+                    LcdWrite("Game end", "resume game");
+                    // insert 부분
                     showGameOverDialog();
                     break;
                 case SHOW_TOAST:

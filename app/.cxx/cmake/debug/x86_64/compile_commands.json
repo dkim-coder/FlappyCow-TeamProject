@@ -1,6 +1,18 @@
 [
 {
   "directory": "C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dled_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\led.dir\\led.c.o   -c C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\led.c",
+  "file": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\led.c"
+},
+
+{
+  "directory": "C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86_64",
+  "command": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Ddotmatrix_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\dotmatrix.dir\\dotmatrix.c.o   -c C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\dotmatrix.c",
+  "file": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\dotmatrix.c"
+},
+
+{
+  "directory": "C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86_64",
   "command": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android21 --gcc-toolchain=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -D_7segment_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles\\7segment.dir\\7segment.c.o   -c C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\7segment.c",
   "file": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\7segment.c"
 },

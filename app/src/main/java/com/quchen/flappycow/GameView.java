@@ -31,6 +31,7 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.os.Build;
+import android.os.Handler;
 import android.os.Message;
 import android.view.MotionEvent;
 import android.view.SurfaceHolder;
@@ -38,7 +39,15 @@ import android.view.SurfaceView;
 import com.google.android.gms.games.Games;
 
 public class GameView extends SurfaceView{
-    
+    // Load 라이브러리
+    static {
+        System.loadLibrary("lcd");
+        System.loadLibrary("led");
+
+    }
+
+    public static native int LcdWrite2(int score);
+
     /** Milliseconds for game timer tick */
     public static final long UPDATE_INTERVAL = 50;        // = 20 FPS
     
@@ -238,6 +247,12 @@ public class GameView extends SurfaceView{
         canvas.drawText(game.getResources().getString(R.string.onscreen_score_text) + " " + game.accomplishmentBox.points
                         + " / " + game.getResources().getString(R.string.onscreen_coin_text) + " " + game.coins,
                         0, getScoreTextMetrics(), paint);
+        LcdWrite2(game.accomplishmentBox.points);
+
+
+
+
+
     }
     
     /**

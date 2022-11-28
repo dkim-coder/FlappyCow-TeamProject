@@ -34,14 +34,14 @@ public class MainActivity extends BaseGameActivity {
         super.onCreate(savedInstanceState);
         view = new StartscreenView(this);
         setContentView(view);
-        setSocket();
+        // setSocket();
     }
 
     public GoogleApiClient getApiClient(){
         return mHelper.getApiClient();
     }
     
-    public void login() {
+   /* public void login() {
         beginUserInitiatedSignIn();
     }
     
@@ -49,8 +49,8 @@ public class MainActivity extends BaseGameActivity {
         signOut();
         view.setOnline(false);
         view.invalidate();
-    }
-    
+    }*/
+
     public void muteToggle() {
         if(volume != 0){
             volume = 0;
@@ -61,23 +61,21 @@ public class MainActivity extends BaseGameActivity {
         }
         view.invalidate();
     }
-    
-    /**
-     * Fills the socket with the medals that have already been collected.
-     */
-    private void setSocket(){
+
+    /* Fills the socket with the medals that have already been collected. */
+    /*private void setSocket(){
         SharedPreferences saves = this.getSharedPreferences(medaille_save, 0);
         view.setSocket(saves.getInt(medaille_key, 0));
         view.invalidate();
-    }
+    }*/
 
-    /**
+    /*
      * Updates the socket for the medals.
      */
     @Override
     protected void onResume() {
         super.onResume();
-        setSocket();
+        // setSocket();
     }
 
     @Override
@@ -88,11 +86,11 @@ public class MainActivity extends BaseGameActivity {
     @Override
     public void onSignInSucceeded() {
         Toast.makeText(this, "You're logged in", Toast.LENGTH_SHORT).show();
-        view.setOnline(true);
+        // view.setOnline(true);
         view.invalidate();
         if(AccomplishmentBox.isOnline(this)){
             AccomplishmentBox.getLocal(this).submitScore(this, getApiClient());
         }
     }
-    
+
 }

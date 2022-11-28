@@ -1,7 +1,14 @@
 # ninja log v5
 2	108	691082342	CMakeFiles/buzzer.dir/buzzer.c.o	174f37a39d31b435
-4	115	691082342	CMakeFiles/lcd.dir/lcd.c.o	4354e126bc5ba63
-0	121	691082342	CMakeFiles/7segment.dir/7segment.c.o	382b29103178dfb
+4	76	691347165	CMakeFiles/led.dir/led.c.o	24844840353dddc3
+6	86	691347165	CMakeFiles/lcd.dir/lcd.c.o	4354e126bc5ba63
+192	241	691347165	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/lib7segment.so	c6d05bc63a55984a
+77	192	691347165	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/libled.so	980023fdecb77c66
+3	94	691250236	CMakeFiles/7segment.dir/7segment.c.o	382b29103178dfb
+2	41	691347165	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	202a652a9f6b50c0
 109	148	691082342	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/libbuzzer.so	d6ada561f46774c1
-115	151	691082342	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/liblcd.so	2fdbb60093a35606
-151	189	691082342	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/lib7segment.so	1f83ef03ab198ad5
+86	192	691347165	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/liblcd.so	2fdbb60093a35606
+41	192	691347165	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/libdotmatrix.so	dd132057818d8ee9
+1	69	691350566	CMakeFiles/led.dir/led.c.o	24844840353dddc3
+69	109	691350566	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/libled.so	980023fdecb77c66
+110	148	691350566	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86/lib7segment.so	c6d05bc63a55984a

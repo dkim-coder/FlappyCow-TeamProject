@@ -9,11 +9,23 @@
   ],
   "buildTargetsCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
+    "led-Debug-arm64-v8a": {
+      "artifactName": "led",
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" led",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libled.so"
+    },
     "buzzer-Debug-arm64-v8a": {
       "artifactName": "buzzer",
       "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" buzzer",
       "abi": "arm64-v8a",
       "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libbuzzer.so"
+    },
+    "dotmatrix-Debug-arm64-v8a": {
+      "artifactName": "dotmatrix",
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\arm64-v8a\" dotmatrix",
+      "abi": "arm64-v8a",
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libdotmatrix.so"
     },
     "7segment-Debug-arm64-v8a": {
       "artifactName": "7segment",

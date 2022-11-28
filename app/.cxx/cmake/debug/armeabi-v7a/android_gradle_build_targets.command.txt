@@ -4,6 +4,8 @@ arguments :
 C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\.cxx\cmake\debug\armeabi-v7a
 7segment
 buzzer
+dotmatrix
 lcd
+led
 jvmArgs : 
 

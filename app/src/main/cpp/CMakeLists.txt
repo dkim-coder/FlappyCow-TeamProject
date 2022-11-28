@@ -14,6 +14,24 @@ cmake_minimum_required(VERSION 3.4.1)
 # Gradle automatically packages shared libraries with your APK.
 
 add_library( # Sets the name of the library.
+        led
+
+        # Sets the library as a shared library.
+        SHARED
+
+        # Provides a relative path to your source file(s).
+        led.c)
+
+add_library( # Sets the name of the library.
+        dotmatrix
+
+        # Sets the library as a shared library.
+        SHARED
+
+        # Provides a relative path to your source file(s).
+        dotmatrix.c)
+
+add_library( # Sets the name of the library.
         7segment
 
         # Sets the library as a shared library.
@@ -58,7 +76,7 @@ find_library( # Sets the name of the path variable.
 # build script, prebuilt third-party libraries, or system libraries.
 
 target_link_libraries( # Specifies the target library.
-        7segment lcd buzzer
+        7segment lcd buzzer led dotmatrix
 
         # Links the target library to the log library
         # included in the NDK.

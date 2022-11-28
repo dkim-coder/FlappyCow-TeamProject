@@ -1,7 +1,7 @@
-set(CMAKE_C_COMPILER "C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe")
+set(CMAKE_C_COMPILER "C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "Clang")
-set(CMAKE_C_COMPILER_VERSION "14.0.6")
+set(CMAKE_C_COMPILER_VERSION "9.0")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")
@@ -16,11 +16,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ar.exe")
+set(CMAKE_AR "C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/i686-linux-android-ar.exe")
 set(CMAKE_C_COMPILER_AR "CMAKE_C_COMPILER_AR-NOTFOUND")
-set(CMAKE_RANLIB "C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-ranlib.exe")
+set(CMAKE_RANLIB "C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/i686-linux-android-ranlib.exe")
 set(CMAKE_C_COMPILER_RANLIB "CMAKE_C_COMPILER_RANLIB-NOTFOUND")
-set(CMAKE_LINKER "CMAKE_LINKER-NOTFOUND")
+set(CMAKE_LINKER "C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/bin/i686-linux-android-ld.exe")
 set(CMAKE_COMPILER_IS_GNUCC )
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -68,6 +68,6 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "-l:libunwind.a;dl;c;-l:libunwind.a;dl")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/14.0.6/lib/linux/i386;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/19;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;dl;c;gcc;dl")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.9/lib/linux/i386;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/i686-linux-android/4.9.x;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android/16;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/i686-linux-android;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/i686-linux-android/lib;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

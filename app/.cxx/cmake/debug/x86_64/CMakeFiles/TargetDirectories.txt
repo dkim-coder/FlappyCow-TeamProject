@@ -1,3 +1,5 @@
+C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/led.dir
+C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/dotmatrix.dir
 C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/7segment.dir
 C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/lcd.dir
 C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86_64/CMakeFiles/buzzer.dir

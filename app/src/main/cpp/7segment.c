@@ -9,7 +9,7 @@
    디바이스에 쓰기 위한 c/c++ 코드 구현 */
 
 JNIEXPORT jint JNICALL
-Java_com_example_a7segmentcontrol_MainActivity_SSegmentWrite(JNIEnv *env, jobject thiz, jint data) {
+Java_com_quchen_flappycow_Game_SSegmentWrite(JNIEnv *env, jobject thiz, jint data) {
     int fd, ret;
     unsigned char bytevalues[4];
 

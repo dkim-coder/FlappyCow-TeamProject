@@ -4,6 +4,8 @@ arguments :
 C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\.cxx\cmake\debug\x86_64
 7segment
 buzzer
+dotmatrix
 lcd
+led
 jvmArgs : 
 

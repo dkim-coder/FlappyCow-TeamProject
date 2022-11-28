@@ -15,7 +15,7 @@
 ########################
 
 //Dependencies for the target
-7segment_LIB_DEPENDS:STATIC=general;lcd;general;buzzer;general;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/liblog.so;
+7segment_LIB_DEPENDS:STATIC=general;lcd;general;buzzer;general;led;general;dotmatrix;general;C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/liblog.so;
 
 //No help, variable specified on the command line.
 ANDROID_ABI:UNINITIALIZED=x86_64
@@ -204,8 +204,8 @@ CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 //No help, variable specified on the command line.
 CMAKE_SYSTEM_VERSION:UNINITIALIZED=16
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/build/cmake/android.toolchain.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=C:\Users\jeus5771\AppData\Local\Android\Sdk\ndk\android-ndk-r21e\build\cmake\android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -223,7 +223,13 @@ Project_SOURCE_DIR:STATIC=C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-mast
 buzzer_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
+dotmatrix_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 lcd_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+led_LIB_DEPENDS:STATIC=
 
 //Path to a library.
 log-lib:FILEPATH=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21/liblog.so

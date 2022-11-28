@@ -1,7 +1,20 @@
 # ninja log v5
-4	117	691082342	CMakeFiles/lcd.dir/lcd.c.o	549b8c89b2176d8f
-0	124	691082342	CMakeFiles/7segment.dir/7segment.c.o	2cc9b893cad7fa19
+123	161	691347165	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so	905c11a7781f6f8c
+2	84	691347165	CMakeFiles/lcd.dir/lcd.c.o	549b8c89b2176d8f
+135	172	691344706	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	17d4b0e7104b00e3
+48	137	691344706	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libdotmatrix.so	d94b275a6992bf81
+3	113	691250236	CMakeFiles/7segment.dir/7segment.c.o	2cc9b893cad7fa19
 3	128	691082342	CMakeFiles/buzzer.dir/buzzer.c.o	ddd67623c7a3a120
-117	155	691082342	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/liblcd.so	23019fc209f17d1a
+4	135	691344706	CMakeFiles/led.dir/led.c.o	19e011eec2df5ef6
+84	123	691347165	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/liblcd.so	23019fc209f17d1a
+1	48	691344706	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	da98fb8016adb4a8
 128	165	691082342	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libbuzzer.so	48fdc831a19f1263
-165	203	691082342	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so	51406ab8fc311870
+2	79	691348754	CMakeFiles/led.dir/led.c.o	19e011eec2df5ef6
+79	122	691348754	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	17d4b0e7104b00e3
+122	161	691348754	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so	905c11a7781f6f8c
+2	78	691349337	CMakeFiles/led.dir/led.c.o	19e011eec2df5ef6
+78	123	691349337	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	17d4b0e7104b00e3
+123	161	691349337	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so	905c11a7781f6f8c
+1	68	691350566	CMakeFiles/led.dir/led.c.o	19e011eec2df5ef6
+68	107	691350566	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/libled.so	17d4b0e7104b00e3
+107	146	691350566	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/arm64-v8a/lib7segment.so	905c11a7781f6f8c

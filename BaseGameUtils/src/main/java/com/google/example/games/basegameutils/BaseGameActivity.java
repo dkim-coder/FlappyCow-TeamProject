@@ -68,10 +68,10 @@ public abstract class BaseGameActivity extends FragmentActivity implements
      * @param requestedClients The requested clients (a combination of CLIENT_GAMES,
      *         CLIENT_PLUS).
      */
-    protected BaseGameActivity(int requestedClients) {
+/*    protected BaseGameActivity(int requestedClients) {
         super();
         setRequestedClients(requestedClients);
-    }
+    }*/
 
     /**
      * Sets the requested clients. The preferred way to set the requested clients is
@@ -83,9 +83,9 @@ public abstract class BaseGameActivity extends FragmentActivity implements
      * @param requestedClients A combination of the flags CLIENT_GAMES, CLIENT_PLUS
      *         or CLIENT_ALL to request all available clients.
      */
-    protected void setRequestedClients(int requestedClients) {
+ /*   protected void setRequestedClients(int requestedClients) {
         mRequestedClients = requestedClients;
-    }
+    }*/
 
     public GameHelper getGameHelper() {
         if (mHelper == null) {
@@ -122,7 +122,7 @@ public abstract class BaseGameActivity extends FragmentActivity implements
         mHelper.onActivityResult(request, response, data);
     }
 
-    protected GoogleApiClient getApiClient() {
+   /* protected GoogleApiClient getApiClient() {
         return mHelper.getApiClient();
     }
 
@@ -144,9 +144,9 @@ public abstract class BaseGameActivity extends FragmentActivity implements
 
     protected void showAlert(String title, String message) {
         mHelper.makeSimpleDialog(title, message).show();
-    }
+    }*/
 
-    protected void enableDebugLog(boolean enabled) {
+/*    protected void enableDebugLog(boolean enabled) {
         mDebugLog = true;
         if (mHelper != null) {
             mHelper.enableDebugLog(enabled);
@@ -158,9 +158,9 @@ public abstract class BaseGameActivity extends FragmentActivity implements
         Log.w(TAG, "BaseGameActivity.enabledDebugLog(bool,String) is " +
                 "deprecated. Use enableDebugLog(boolean)");
         enableDebugLog(enabled);
-    }
+    }*/
 
-    protected String getInvitationId() {
+/*    protected String getInvitationId() {
         return mHelper.getInvitationId();
     }
 
@@ -174,5 +174,5 @@ public abstract class BaseGameActivity extends FragmentActivity implements
 
     protected GameHelper.SignInFailureReason getSignInError() {
         return mHelper.getSignInError();
-    }
+    }*/
 }

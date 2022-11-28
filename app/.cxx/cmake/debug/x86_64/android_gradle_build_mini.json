@@ -15,11 +15,23 @@
       "abi": "x86_64",
       "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libbuzzer.so"
     },
+    "dotmatrix-Debug-x86_64": {
+      "artifactName": "dotmatrix",
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86_64\" dotmatrix",
+      "abi": "x86_64",
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libdotmatrix.so"
+    },
     "lcd-Debug-x86_64": {
       "artifactName": "lcd",
       "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86_64\" lcd",
       "abi": "x86_64",
       "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\liblcd.so"
+    },
+    "led-Debug-x86_64": {
+      "artifactName": "led",
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86_64\" led",
+      "abi": "x86_64",
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libled.so"
     },
     "7segment-Debug-x86_64": {
       "artifactName": "7segment",

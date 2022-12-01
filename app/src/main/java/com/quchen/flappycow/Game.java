@@ -207,10 +207,15 @@ public class Game extends BaseGameActivity{
             }
         }
 
-        LedWrite(255);
+        int data = 0;
+        while(data<2){
+            LedWrite(data);
+            data++;
 
+            if(data == 1) data = 0;
+        }
 
-        // 삽입해서 수정한 부분
+       // 삽입해서 수정한 부분
         SSegmentWrite(this.coins);
     }
 

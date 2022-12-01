@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlappyCow-master.iml" filepath="$PROJECT_DIR$/.idea/modules/FlappyCow-master.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-master.BaseGameUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-master.BaseGameUtils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-master.BaseGameUtils.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-master.BaseGameUtils.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-master.BaseGameUtils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-master.BaseGameUtils.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-master.BaseGameUtils.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-master.BaseGameUtils.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlappyCow-master.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlappyCow-master.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlappyCow-master.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlappyCow-master.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlappyCow-master.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlappyCow-master.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlappyCow-master.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlappyCow-master.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FlappyCow-TeamProject.iml" filepath="$PROJECT_DIR$/.idea/modules/FlappyCow-TeamProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-TeamProject.BaseGameUtils.iml" filepath="$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-TeamProject.BaseGameUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-TeamProject.BaseGameUtils.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-TeamProject.BaseGameUtils.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-TeamProject.BaseGameUtils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-TeamProject.BaseGameUtils.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-TeamProject.BaseGameUtils.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/BaseGameUtils/FlappyCow-TeamProject.BaseGameUtils.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlappyCow-TeamProject.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlappyCow-TeamProject.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlappyCow-TeamProject.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlappyCow-TeamProject.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlappyCow-TeamProject.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlappyCow-TeamProject.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/FlappyCow-TeamProject.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/FlappyCow-TeamProject.app.unitTest.iml" />
     </modules>
   </component>
 </project>

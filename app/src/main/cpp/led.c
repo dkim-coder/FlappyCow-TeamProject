@@ -18,7 +18,8 @@ Java_com_quchen_flappycow_Game_LedWrite(JNIEnv *env, jobject thiz, jint data) {
         printf("ex)./test_led 7 (0-255)\n");
         return -1;
     }*/
-    bytedata = data;
+
+    bytedata =data;
     if ((bytedata < 0) || (bytedata >0xff)){
         printf("Invalid range!\n");
         return -1;
@@ -35,7 +36,6 @@ Java_com_quchen_flappycow_Game_LedWrite(JNIEnv *env, jobject thiz, jint data) {
         printf("Wirte Error!\n");
         return -1;
     }
-    sleep(1);
 
     bytedata =0;
     ret =read(fd, &bytedata, 1);

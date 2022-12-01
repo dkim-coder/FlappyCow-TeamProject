@@ -1,2 +1,4 @@
 ninja: Entering directory `C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\.cxx\cmake\debug\armeabi-v7a'
-ninja: no work to do.
+[1/3] Building C object CMakeFiles/dotmatrix.dir/dotmatrix.c.o
+[2/3] Linking C shared library C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libdotmatrix.so
+[3/3] Linking C shared library C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\build\intermediates\cmake\debug\obj\armeabi-v7a\lib7segment.so

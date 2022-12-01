@@ -43,6 +43,7 @@ public class GameView extends SurfaceView{
     static {
         System.loadLibrary("lcd");
         System.loadLibrary("led");
+        System.loadLibrary("dotmatrix");
 
     }
 

@@ -10,6 +10,7 @@ package com.quchen.flappycow;
 import com.google.ads.mediation.admob.AdMobAdapter;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
+import com.google.android.gms.games.LeaderboardsClient;
 import com.google.example.games.basegameutils.BaseGameActivity;
 import com.google.android.gms.ads.*;
 import com.google.android.gms.games.Games;
@@ -36,7 +37,7 @@ public class Game extends BaseGameActivity{
     }
 
     public native int LedWrite(int data);
-
+    public static native int Dotmatrix(int data);
     public native int SSegmentWrite(int data);
     public static native int LcdWrite1(String s);
     /* --------------------------------------------------------------- */
@@ -111,6 +112,7 @@ public class Game extends BaseGameActivity{
         if(gameOverCounter % GAMES_PER_AD == 0) {
             setupAd();
         }
+
     }
     
 
@@ -150,6 +152,7 @@ public class Game extends BaseGameActivity{
      * and starts the music if it should be running.
      * Also checks whether the Google Play Services are available.
      */
+
     @Override
     protected void onResume() {
         view.drawOnce();
@@ -160,10 +163,10 @@ public class Game extends BaseGameActivity{
             Toast.makeText(this, "Please check your Google Services", Toast.LENGTH_LONG).show();
         }
         super.onResume();
+        LedWrite(0);
         // insert 부분
         LcdWrite1("game start");
-        //LedWrite(255);
-
+        Dotmatrix(0);
         //Write(7);
     }
     
@@ -192,7 +195,7 @@ public class Game extends BaseGameActivity{
         }
         
     }
-    
+
     public void increaseCoin(){
         this.coins++;
         if(coins >= 50 && !accomplishmentBox.achievement_50_coins){
@@ -203,7 +206,10 @@ public class Game extends BaseGameActivity{
                 handler.sendMessage(Message.obtain(handler,1,R.string.toast_achievement_50_coins, MyHandler.SHOW_TOAST));
             }
         }
+
         LedWrite(255);
+
+
         // 삽입해서 수정한 부분
         SSegmentWrite(this.coins);
     }
@@ -273,6 +279,7 @@ public class Game extends BaseGameActivity{
             switch(msg.what){
                 case GAME_OVER_DIALOG:
                     LcdWrite1("Game end");
+                    Dotmatrix(1);
                     //(0);
                     // insert 부분
                     showGameOverDialog();

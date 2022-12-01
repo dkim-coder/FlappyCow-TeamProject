@@ -33,22 +33,6 @@
       "headers": [],
       "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libbuzzer.so"
     },
-    "dotmatrix-Debug-x86_64": {
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86_64\" dotmatrix",
-      "buildType": "debug",
-      "toolchain": "1161280311",
-      "abi": "x86_64",
-      "artifactName": "dotmatrix",
-      "files": [
-        {
-          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\dotmatrix.c",
-          "flagsOrdinal": 2,
-          "workingDirectoryOrdinal": 0
-        }
-      ],
-      "headers": [],
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libdotmatrix.so"
-    },
     "lcd-Debug-x86_64": {
       "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86_64\" lcd",
       "buildType": "debug",
@@ -64,6 +48,22 @@
       ],
       "headers": [],
       "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\liblcd.so"
+    },
+    "dotmatrix-Debug-x86_64": {
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86_64\" dotmatrix",
+      "buildType": "debug",
+      "toolchain": "1161280311",
+      "abi": "x86_64",
+      "artifactName": "dotmatrix",
+      "files": [
+        {
+          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\dotmatrix.c",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libdotmatrix.so"
     },
     "led-Debug-x86_64": {
       "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86_64\" led",

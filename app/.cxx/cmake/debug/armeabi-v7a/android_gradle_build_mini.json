@@ -21,17 +21,17 @@
       "abi": "armeabi-v7a",
       "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\liblcd.so"
     },
-    "led-Debug-armeabi-v7a": {
-      "artifactName": "led",
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" led",
-      "abi": "armeabi-v7a",
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libled.so"
-    },
     "buzzer-Debug-armeabi-v7a": {
       "artifactName": "buzzer",
       "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" buzzer",
       "abi": "armeabi-v7a",
       "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libbuzzer.so"
+    },
+    "led-Debug-armeabi-v7a": {
+      "artifactName": "led",
+      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" led",
+      "abi": "armeabi-v7a",
+      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libled.so"
     },
     "dotmatrix-Debug-armeabi-v7a": {
       "artifactName": "dotmatrix",

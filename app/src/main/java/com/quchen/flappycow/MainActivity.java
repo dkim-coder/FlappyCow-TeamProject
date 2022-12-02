@@ -37,10 +37,10 @@ public class MainActivity extends BaseGameActivity {
         // setSocket();
     }
 
-    public GoogleApiClient getApiClient(){
+    /*public GoogleApiClient getApiClient(){
         return mHelper.getApiClient();
     }
-    
+    */
    /* public void login() {
         beginUserInitiatedSignIn();
     }
@@ -80,17 +80,17 @@ public class MainActivity extends BaseGameActivity {
 
     @Override
     public void onSignInFailed() {
-        Toast.makeText(this, "You're not logged in", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "You're not logged in", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void onSignInSucceeded() {
-        Toast.makeText(this, "You're logged in", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "You're logged in", Toast.LENGTH_SHORT).show();
         // view.setOnline(true);
-        view.invalidate();
-        if(AccomplishmentBox.isOnline(this)){
-            AccomplishmentBox.getLocal(this).submitScore(this, getApiClient());
-        }
+        //view.invalidate();
+        //if(AccomplishmentBox.isOnline(this)){
+        //    AccomplishmentBox.getLocal(this).submitScore(this, getApiClient());
+        //}
     }
 
 }

@@ -34,12 +34,14 @@ public class Game extends BaseGameActivity{
         System.loadLibrary("lcd");
         System.loadLibrary("dotmatrix");
         System.loadLibrary("led");
+        System.loadLibrary("buzzer");
     }
 
     public native int LedWrite(int data);
     public static native int Dotmatrix(int data);
     public native int SSegmentWrite(int data);
     public static native int LcdWrite1(String s);
+    public static native int BuzzerWrite(int t);
     /* --------------------------------------------------------------- */
 
 
@@ -153,21 +155,24 @@ public class Game extends BaseGameActivity{
      * Also checks whether the Google Play Services are available.
      */
 
+
+    // Game start 부분
     @Override
     protected void onResume() {
         view.drawOnce();
         if(musicShouldPlay){
             musicPlayer.start();
         }
-        if(GooglePlayServicesUtil.isGooglePlayServicesAvailable(this) != ConnectionResult.SUCCESS){
+        // google play service 삭제
+        /*if(GooglePlayServicesUtil.isGooglePlayServicesAvailable(this) != ConnectionResult.SUCCESS){
             Toast.makeText(this, "Please check your Google Services", Toast.LENGTH_LONG).show();
-        }
+        }*/
         super.onResume();
+
+        // insert
         LedWrite(0);
-        // insert 부분
-        LcdWrite1("game start");
+        LcdWrite1("game start");        // game 시작 메시지 LCD 표시
         Dotmatrix(0);
-        //Write(7);
     }
     
     /**
@@ -208,7 +213,7 @@ public class Game extends BaseGameActivity{
         }
 
         LedWrite(255);
-
+        LedWrite(0);
 
         // 삽입해서 수정한 부분
         SSegmentWrite(this.coins);
@@ -259,7 +264,7 @@ public class Game extends BaseGameActivity{
     public GoogleApiClient getApiClient(){
         return mHelper.getApiClient();
     }
-    
+
     /**
      * Shows the GameOverDialog when a message with code 0 is received.
      */
@@ -278,10 +283,10 @@ public class Game extends BaseGameActivity{
         public void handleMessage(Message msg) {
             switch(msg.what){
                 case GAME_OVER_DIALOG:
-                    LcdWrite1("Game end");
-                    Dotmatrix(1);
-                    //(0);
                     // insert 부분
+                    LcdWrite1("Game end");      // game over LCD 에 출력하는 부분
+                    Dotmatrix(1);
+                    BuzzerWrite(1);
                     showGameOverDialog();
                     break;
                 case SHOW_TOAST:

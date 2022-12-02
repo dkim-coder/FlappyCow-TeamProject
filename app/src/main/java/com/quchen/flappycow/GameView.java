@@ -248,12 +248,9 @@ public class GameView extends SurfaceView{
         canvas.drawText(game.getResources().getString(R.string.onscreen_score_text) + " " + game.accomplishmentBox.points
                         + " / " + game.getResources().getString(R.string.onscreen_coin_text) + " " + game.coins,
                         0, getScoreTextMetrics(), paint);
+
+        // score 값 lcd에 출력하기 위함
         LcdWrite2(game.accomplishmentBox.points);
-
-
-
-
-
     }
     
     /**

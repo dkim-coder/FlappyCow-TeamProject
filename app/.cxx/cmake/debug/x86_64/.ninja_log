@@ -32,3 +32,14 @@
 2	69	691359296	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	60a8211a718d9979
 69	108	691359296	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86_64/libdotmatrix.so	c88ad0c24fa5bca4
 108	148	691359296	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86_64/lib7segment.so	728b8067e7326eda
+7	111	691590000	CMakeFiles/buzzer.dir/buzzer.c.o	639f60bfcb042249
+2	118	691590000	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	60a8211a718d9979
+5	126	691590000	CMakeFiles/lcd.dir/lcd.c.o	5f9d9265050e9d1c
+126	503	691590001	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86_64/liblcd.so	2a69d028c0e34e7
+118	503	691590001	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86_64/libdotmatrix.so	c88ad0c24fa5bca4
+111	503	691590001	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86_64/libbuzzer.so	eaf84ff479656d3f
+504	553	691590001	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86_64/lib7segment.so	728b8067e7326eda
+8	152	691669650	CMakeFiles/led.dir/led.c.o	6a29f9c26a2b4f3f
+4	161	691669650	CMakeFiles/7segment.dir/7segment.c.o	7a6228d8f3758bea
+152	308	691669650	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86_64/libled.so	fb5674ac029c0395
+308	377	691669650	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/x86_64/lib7segment.so	728b8067e7326eda

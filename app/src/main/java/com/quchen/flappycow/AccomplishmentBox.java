@@ -82,7 +82,9 @@ public class AccomplishmentBox{
      * @param activity
      * @param apiClient
      */
-    public void submitScore(Activity activity, GoogleApiClient apiClient){
+    
+    // Google Play Services 사용 x
+/*    public void submitScore(Activity activity, GoogleApiClient apiClient){
         Games.Leaderboards.submitScore(apiClient, activity.getResources().getString(R.string.leaderboard_highscore), this.points);
         
         if(this.achievement_50_coins){
@@ -104,7 +106,7 @@ public class AccomplishmentBox{
         AccomplishmentBox.savesAreOnline(activity);
         
         Toast.makeText(activity.getApplicationContext(), "Uploaded", Toast.LENGTH_SHORT).show();
-    }
+    }*/
     
     /**
      * reads the local stored data
@@ -129,12 +131,14 @@ public class AccomplishmentBox{
      * marks the data as online
      * @param activity activity that is needed for shared preferences
      */
-    public static void savesAreOnline(Activity activity){
+    
+    // online 사용 x
+    /*public static void savesAreOnline(Activity activity){
         SharedPreferences saves = activity.getSharedPreferences(SAVE_NAME, 0);
         SharedPreferences.Editor editor = saves.edit();
         editor.putBoolean(ONLINE_STATUS_KEY, true);
         editor.commit();
-    }
+    }*/
     
     /**
      * marks the data as offline
@@ -152,7 +156,9 @@ public class AccomplishmentBox{
      * @param activity activity that is needed for shared preferences
      * @return wheater the last data is already uploaded
      */
-    public static boolean isOnline(Activity activity){
+    
+    // online 기능 삭제
+    /*public static boolean isOnline(Activity activity){
         return activity.getSharedPreferences(SAVE_NAME, 0).getBoolean(ONLINE_STATUS_KEY, true);
-    }
+    }*/
 }

@@ -1,13 +1,11 @@
 # ninja log v5
-49	230	691585501	CMakeFiles/buttons.dir/buttons.c.o	f5fd94ff25dbdfbb
-36	318	691585501	CMakeFiles/buzzer.dir/buzzer.c.o	de5b6d1caa4e45a2
-21	345	691585501	CMakeFiles/led.dir/led.c.o	23b269d173166832
-12	366	691585501	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	7774f2959f966a95
-1	390	691585501	CMakeFiles/7segment.dir/7segment.c.o	545803595825e311
-29	403	691585501	CMakeFiles/lcd.dir/lcd.c.o	b2ac389a9f605e55
-230	419	691585501	C:/Users/start/Downloads/FlappyCow-TeamProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libbuttons.so	ea9040f1c7432358
-320	489	691585501	C:/Users/start/Downloads/FlappyCow-TeamProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libbuzzer.so	16f1dd1fb0dd3aa3
-346	508	691585501	C:/Users/start/Downloads/FlappyCow-TeamProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libled.so	c74fec1c6dcec909
-367	525	691585501	C:/Users/start/Downloads/FlappyCow-TeamProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libdotmatrix.so	28b0208e114c8b01
-404	540	691585501	C:/Users/start/Downloads/FlappyCow-TeamProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/liblcd.so	8db6c66cb366c8a9
-540	718	691585501	C:/Users/start/Downloads/FlappyCow-TeamProject/app/build/intermediates/cmake/debug/obj/armeabi-v7a/lib7segment.so	78d804f27179b011
+5	324	691589998	CMakeFiles/dotmatrix.dir/dotmatrix.c.o	3dd40bd8767d5077
+150	331	691589998	CMakeFiles/buzzer.dir/buzzer.c.o	cb6596ee46c273a
+1	95	691590951	CMakeFiles/led.dir/led.c.o	d887580b352b4823
+331	1337	691589999	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libbuzzer.so	ca583858fab8444f
+324	1337	691589999	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libdotmatrix.so	f15b43fb448dbfec
+4	229	691670120	CMakeFiles/7segment.dir/7segment.c.o	3ce074c3fd1399cf
+153	315	691589998	CMakeFiles/lcd.dir/lcd.c.o	7e7ad9f556731d8f
+315	1337	691589999	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/liblcd.so	c291afc9d56c24ea
+95	204	691590951	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libled.so	c414fa13a03a8b30
+229	458	691670120	C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/lib7segment.so	608b9e7e9924dea3

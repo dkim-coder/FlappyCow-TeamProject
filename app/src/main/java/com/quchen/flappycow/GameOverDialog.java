@@ -16,6 +16,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class GameOverDialog extends Dialog {
+    // library load 하기
+    static{
+        System.loadLibrary("7segment");
+    }
+
+    public native int SSegmentWrite2(int data);
+
     public static final int REVIVE_PRICE = 5;
     
     /** Name of the SharedPreference that saves the score */
@@ -49,8 +56,8 @@ public class GameOverDialog extends Dialog {
                 if(game.numberOfRevive <= 1){
                     game.accomplishmentBox.saveLocal(game);
                     if(game.getApiClient().isConnected()){
-                        game.accomplishmentBox.submitScore(game, game.getApiClient());
-                        AccomplishmentBox.savesAreOnline(game);
+                        //game.accomplishmentBox.submitScore(game, game.getApiClient());
+                        //AccomplishmentBox.savesAreOnline(game);
                     }else{
                         AccomplishmentBox.savesAreOffline(game);
                     }
@@ -70,6 +77,8 @@ public class GameOverDialog extends Dialog {
             public void onClick(View v) {
                 dismiss();
                 game.coins -= REVIVE_PRICE * game.numberOfRevive;
+                // revive 버튼이 눌렸을 경우 coin 업데이트 필요
+                SSegmentWrite2(game.coins);
                 saveCoins();
                 game.view.revive();
             }

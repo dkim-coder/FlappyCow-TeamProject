@@ -144,7 +144,7 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
     ConnectionResult mConnectionResult = null;
 
     // The error that happened during sign-in.
-    SignInFailureReason mSignInFailureReason = null;
+//    SignInFailureReason mSignInFailureReason = null;
 
     // Should we show error dialog boxes?
     boolean mShowErrorDialogs = true;
@@ -339,17 +339,21 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
      * Returns whether or not there was a (non-recoverable) error during the
      * sign-in process.
      */
+/*
     public boolean hasSignInError() {
         return mSignInFailureReason != null;
     }
+*/
 
     /**
      * Returns the error that happened during the sign-in process, null if no
      * error occurred.
      */
+/*
     public SignInFailureReason getSignInError() {
         return mSignInFailureReason;
     }
+*/
 
     // Set whether to show error dialogs or not.
     public void setShowErrorDialogs(boolean show) {
@@ -580,7 +584,7 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
             mSignInCancelled = true;
             mConnectOnStart = false;
             mUserInitiatedSignIn = false;
-            mSignInFailureReason = null; // cancelling is not a failure!
+//            mSignInFailureReason = null; // cancelling is not a failure!
             mConnecting = false;
             mGoogleApiClient.disconnect();
 
@@ -598,17 +602,17 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
                     + GameHelperUtils
                     .activityResponseCodeToString(responseCode)
                     + ", so giving up.");
-            giveUp(new SignInFailureReason(mConnectionResult.getErrorCode(),
-                    responseCode));
+//            giveUp(new SignInFailureReason(mConnectionResult.getErrorCode(),
+//                    responseCode));
         }
     }
 
     void notifyListener(boolean success) {
-        debugLog("Notifying LISTENER of sign-in "
+  /*      debugLog("Notifying LISTENER of sign-in "
                 + (success ? "SUCCESS"
                 : mSignInFailureReason != null ? "FAILURE (error)"
                 : "FAILURE (no error)"));
-        if (mListener != null) {
+*/        if (mListener != null) {
             if (success) {
                 mListener.onSignInSucceeded();
             } else {
@@ -729,7 +733,7 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
 
     void succeedSignIn() {
         debugLog("succeedSignIn");
-        mSignInFailureReason = null;
+//        mSignInFailureReason = null;
         mConnectOnStart = true;
         mUserInitiatedSignIn = false;
         mConnecting = false;
@@ -861,7 +865,7 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
             // It's not a problem what we can solve, so give up and show an
             // error.
             debugLog("resolveConnectionResult: result has no resolution. Giving up.");
-            giveUp(new SignInFailureReason(mConnectionResult.getErrorCode()));
+//            giveUp(new SignInFailureReason(mConnectionResult.getErrorCode()));
             
             mConnectionResult = null;
         }
@@ -884,6 +888,7 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
      * can be solved (for example, re-enable Google Play Services, upgrade to a
      * new version, etc).
      */
+/*
     void giveUp(SignInFailureReason reason) {
         mConnectOnStart = false;
         disconnect();
@@ -898,18 +903,20 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
         mConnecting = false;
         notifyListener(false);
     }
+*/
 
     /** Called when we are disconnected from the Google API client. */
     @Override
     public void onConnectionSuspended(int cause) {
         debugLog("onConnectionSuspended, cause=" + cause);
         disconnect();
-        mSignInFailureReason = null;
+//        mSignInFailureReason = null;
         debugLog("Making extraordinary call to onSignInFailed callback");
         mConnecting = false;
         notifyListener(false);
     }
 
+/*
     public void showFailureDialog() {
         if (mSignInFailureReason != null) {
             int errorCode = mSignInFailureReason.getServiceErrorCode();
@@ -923,6 +930,7 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
             }
         }
     }
+*/
 
     /** Shows an error dialog that's appropriate for the failure reason. */
     public static void showFailureDialog(Activity activity, int actResp,
@@ -1010,6 +1018,7 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
     }
 
     // Represents the reason for a sign-in failure
+/*
     public static class SignInFailureReason {
         public static final int NO_ACTIVITY_RESULT_CODE = -100;
         int mServiceErrorCode = 0;
@@ -1042,6 +1051,7 @@ public class GameHelper implements GoogleApiClient.ConnectionCallbacks,
                     .activityResponseCodeToString(mActivityResultCode) + ")"));
         }
     }
+*/
 
     // Not recommended for general use. This method forces the
     // "connect on start" flag

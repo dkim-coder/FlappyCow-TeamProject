@@ -1,2 +1,10 @@
 ninja: Entering directory `C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\.cxx\cmake\debug\armeabi-v7a'
-ninja: no work to do.
+[1/4] Building C object CMakeFiles/7segment.dir/7segment.c.o
+[2/4] Building C object CMakeFiles/lcd.dir/lcd.c.o
+[3/4] Linking C shared library C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\build\intermediates\cmake\debug\obj\armeabi-v7a\liblcd.so
+FAILED: C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/build/intermediates/cmake/debug/obj/armeabi-v7a/liblcd.so 
+cmd.exe /C "cd . && C:\Users\jeus5771\AppData\Local\Android\Sdk\ndk\android-ndk-r21e\toolchains\llvm\prebuilt\windows-x86_64\bin\clang.exe --target=armv7-none-linux-androideabi16 --gcc-toolchain=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -shared -Wl,-soname,liblcd.so -o C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\build\intermediates\cmake\debug\obj\armeabi-v7a\liblcd.so CMakeFiles/lcd.dir/lcd.c.o  -latomic -lm && cd ."
+C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/src/main/cpp/lcd.c:25: error: undefined reference to '__android_log_print'
+C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/src/main/cpp/lcd.c:53: error: undefined reference to '__android_log_print'
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.

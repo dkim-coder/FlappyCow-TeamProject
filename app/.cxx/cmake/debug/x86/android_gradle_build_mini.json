@@ -1,43 +1,49 @@
 {
   "buildFiles": [
-    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\build\\cmake\\platforms.cmake",
-    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\build\\cmake\\android.toolchain.cmake",
-    "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\CMakeLists.txt"
+    "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake"
   ],
   "cleanCommands": [
-    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" clean"
+    "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "led-Debug-x86": {
       "artifactName": "led",
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" led",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" led",
       "abi": "x86",
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libled.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libled.so"
     },
     "7segment-Debug-x86": {
       "artifactName": "7segment",
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" 7segment",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" 7segment",
       "abi": "x86",
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\lib7segment.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\lib7segment.so"
+    },
+    "buttons-Debug-x86": {
+      "artifactName": "buttons",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" buttons",
+      "abi": "x86",
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libbuttons.so"
     },
     "buzzer-Debug-x86": {
       "artifactName": "buzzer",
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" buzzer",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" buzzer",
       "abi": "x86",
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libbuzzer.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libbuzzer.so"
     },
     "lcd-Debug-x86": {
       "artifactName": "lcd",
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" lcd",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" lcd",
       "abi": "x86",
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\liblcd.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\liblcd.so"
     },
     "dotmatrix-Debug-x86": {
       "artifactName": "dotmatrix",
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" dotmatrix",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" dotmatrix",
       "abi": "x86",
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libdotmatrix.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libdotmatrix.so"
     }
   }
 }

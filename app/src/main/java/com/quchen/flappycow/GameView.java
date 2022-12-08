@@ -44,9 +44,11 @@ public class GameView extends SurfaceView{
         System.loadLibrary("lcd");
         System.loadLibrary("led");
         System.loadLibrary("dotmatrix");
+        System.loadLibrary("buttons");
 
     }
 
+    public native int buttons(int btn);
     public static native int LcdWrite2(int score);
 
     /** Milliseconds for game timer tick */
@@ -375,7 +377,9 @@ public class GameView extends SurfaceView{
     /**
      * Changes the player to Nyan Cat
      */
+
     public void changeToNyanCat(){
+
         game.accomplishmentBox.achievement_toastification = true;
         if(game.getApiClient().isConnected()){
             Games.Achievements.unlock(game.getApiClient(), getResources().getString(R.string.achievement_toastification));

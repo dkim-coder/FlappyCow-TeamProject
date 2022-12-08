@@ -1,106 +1,123 @@
 {
   "stringTable": {
-    "0": "C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86",
-    "1": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dled_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
-    "2": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Ddotmatrix_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
-    "3": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -D_7segment_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
-    "4": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dlcd_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
-    "5": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/jeus5771/AppData/Local/Android/Sdk/ndk/android-ndk-r21e/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dbuzzer_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
+    "0": "C:/Users/start/Downloads/FlappyCow-TeamProject/app/.cxx/cmake/debug/x86",
+    "1": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dled_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "2": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Ddotmatrix_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "3": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -D_7segment_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "4": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dlcd_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "5": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dbuzzer_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "6": "--target=i686-none-linux-android16 --gcc-toolchain=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/start/AppData/Local/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dbuttons_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC"
   },
   "buildFiles": [
-    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\build\\cmake\\platforms.cmake",
-    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\build\\cmake\\android.toolchain.cmake",
-    "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\CMakeLists.txt"
+    "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\platforms.cmake",
+    "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\build\\cmake\\android.toolchain.cmake"
   ],
   "cleanCommands": [
-    "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" clean"
+    "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" clean"
   ],
-  "buildTargetsCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "buildTargetsCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
     "led-Debug-x86": {
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" led",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" led",
       "buildType": "debug",
-      "toolchain": "1161280311",
+      "toolchain": "3127298199",
       "abi": "x86",
       "artifactName": "led",
       "files": [
         {
-          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\led.c",
+          "src": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\src\\main\\cpp\\led.c",
           "flagsOrdinal": 1,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libled.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libled.so"
     },
     "7segment-Debug-x86": {
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" 7segment",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" 7segment",
       "buildType": "debug",
-      "toolchain": "1161280311",
+      "toolchain": "3127298199",
       "abi": "x86",
       "artifactName": "7segment",
       "files": [
         {
-          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\7segment.c",
+          "src": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\src\\main\\cpp\\7segment.c",
           "flagsOrdinal": 3,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\lib7segment.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\lib7segment.so"
+    },
+    "buttons-Debug-x86": {
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" buttons",
+      "buildType": "debug",
+      "toolchain": "3127298199",
+      "abi": "x86",
+      "artifactName": "buttons",
+      "files": [
+        {
+          "src": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\src\\main\\cpp\\buttons.c",
+          "flagsOrdinal": 6,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libbuttons.so"
     },
     "buzzer-Debug-x86": {
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" buzzer",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" buzzer",
       "buildType": "debug",
-      "toolchain": "1161280311",
+      "toolchain": "3127298199",
       "abi": "x86",
       "artifactName": "buzzer",
       "files": [
         {
-          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\buzzer.c",
+          "src": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\src\\main\\cpp\\buzzer.c",
           "flagsOrdinal": 5,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libbuzzer.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libbuzzer.so"
     },
     "lcd-Debug-x86": {
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" lcd",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" lcd",
       "buildType": "debug",
-      "toolchain": "1161280311",
+      "toolchain": "3127298199",
       "abi": "x86",
       "artifactName": "lcd",
       "files": [
         {
-          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\lcd.c",
+          "src": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\src\\main\\cpp\\lcd.c",
           "flagsOrdinal": 4,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\liblcd.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\liblcd.so"
     },
     "dotmatrix-Debug-x86": {
-      "buildCommand": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\.cxx\\cmake\\debug\\x86\" dotmatrix",
+      "buildCommand": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\.cxx\\cmake\\debug\\x86\" dotmatrix",
       "buildType": "debug",
-      "toolchain": "1161280311",
+      "toolchain": "3127298199",
       "abi": "x86",
       "artifactName": "dotmatrix",
       "files": [
         {
-          "src": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\src\\main\\cpp\\dotmatrix.c",
+          "src": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\src\\main\\cpp\\dotmatrix.c",
           "flagsOrdinal": 2,
           "workingDirectoryOrdinal": 0
         }
       ],
       "headers": [],
-      "output": "C:\\Users\\jeus5771\\AndroidStudioProjects\\FlappyCow-master\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libdotmatrix.so"
+      "output": "C:\\Users\\start\\Downloads\\FlappyCow-TeamProject\\app\\build\\intermediates\\cmake\\debug\\obj\\x86\\libdotmatrix.so"
     }
   },
   "toolchains": {
-    "1161280311": {
-      "cCompilerExecutable": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    "3127298199": {
+      "cCompilerExecutable": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
     }
   },
   "cFileExtensions": [

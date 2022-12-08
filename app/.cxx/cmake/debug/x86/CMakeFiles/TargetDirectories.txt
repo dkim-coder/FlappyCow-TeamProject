@@ -1,7 +1,8 @@
-C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86/CMakeFiles/led.dir
-C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86/CMakeFiles/dotmatrix.dir
-C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86/CMakeFiles/7segment.dir
-C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86/CMakeFiles/lcd.dir
-C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86/CMakeFiles/buzzer.dir
-C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
-C:/Users/jeus5771/AndroidStudioProjects/FlappyCow-master/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir
+C:/Users/start/Downloads/FlappyCow-TeamProject/app/.cxx/cmake/debug/x86/CMakeFiles/led.dir
+C:/Users/start/Downloads/FlappyCow-TeamProject/app/.cxx/cmake/debug/x86/CMakeFiles/dotmatrix.dir
+C:/Users/start/Downloads/FlappyCow-TeamProject/app/.cxx/cmake/debug/x86/CMakeFiles/7segment.dir
+C:/Users/start/Downloads/FlappyCow-TeamProject/app/.cxx/cmake/debug/x86/CMakeFiles/lcd.dir
+C:/Users/start/Downloads/FlappyCow-TeamProject/app/.cxx/cmake/debug/x86/CMakeFiles/buzzer.dir
+C:/Users/start/Downloads/FlappyCow-TeamProject/app/.cxx/cmake/debug/x86/CMakeFiles/buttons.dir
+C:/Users/start/Downloads/FlappyCow-TeamProject/app/.cxx/cmake/debug/x86/CMakeFiles/edit_cache.dir
+C:/Users/start/Downloads/FlappyCow-TeamProject/app/.cxx/cmake/debug/x86/CMakeFiles/rebuild_cache.dir

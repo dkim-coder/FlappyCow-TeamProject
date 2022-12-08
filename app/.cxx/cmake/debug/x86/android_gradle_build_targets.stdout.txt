@@ -1,2 +1,13 @@
-ninja: Entering directory `C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\.cxx\cmake\debug\x86'
-ninja: no work to do.
+ninja: Entering directory `C:\Users\start\Downloads\FlappyCow-TeamProject\app\.cxx\cmake\debug\x86'
+[1/12] Building C object CMakeFiles/buttons.dir/buttons.c.o
+[2/12] Building C object CMakeFiles/buzzer.dir/buzzer.c.o
+[3/12] Building C object CMakeFiles/dotmatrix.dir/dotmatrix.c.o
+[4/12] Building C object CMakeFiles/7segment.dir/7segment.c.o
+[5/12] Building C object CMakeFiles/lcd.dir/lcd.c.o
+[6/12] Building C object CMakeFiles/led.dir/led.c.o
+[7/12] Linking C shared library C:\Users\start\Downloads\FlappyCow-TeamProject\app\build\intermediates\cmake\debug\obj\x86\libbuttons.so
+[8/12] Linking C shared library C:\Users\start\Downloads\FlappyCow-TeamProject\app\build\intermediates\cmake\debug\obj\x86\libbuzzer.so
+[9/12] Linking C shared library C:\Users\start\Downloads\FlappyCow-TeamProject\app\build\intermediates\cmake\debug\obj\x86\libdotmatrix.so
+[10/12] Linking C shared library C:\Users\start\Downloads\FlappyCow-TeamProject\app\build\intermediates\cmake\debug\obj\x86\liblcd.so
+[11/12] Linking C shared library C:\Users\start\Downloads\FlappyCow-TeamProject\app\build\intermediates\cmake\debug\obj\x86\libled.so
+[12/12] Linking C shared library C:\Users\start\Downloads\FlappyCow-TeamProject\app\build\intermediates\cmake\debug\obj\x86\lib7segment.so

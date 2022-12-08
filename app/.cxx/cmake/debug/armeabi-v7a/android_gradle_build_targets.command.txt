@@ -1,8 +1,9 @@
-Executable : C:\Users\jeus5771\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
+Executable : C:\Users\start\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\ninja.exe
 arguments : 
 -C
-C:\Users\jeus5771\AndroidStudioProjects\FlappyCow-master\app\.cxx\cmake\debug\armeabi-v7a
+C:\Users\start\Downloads\FlappyCow-TeamProject\app\.cxx\cmake\debug\armeabi-v7a
 7segment
+buttons
 buzzer
 dotmatrix
 lcd

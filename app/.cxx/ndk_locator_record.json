@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e",
+  "ndkFolder": "C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570",
   "messages": [
     {
       "level": "INFO",
@@ -7,7 +7,7 @@
     },
     {
       "level": "INFO",
-      "message": "ndk.dir in local.properties is C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e"
+      "message": "ndk.dir in local.properties is not set"
     },
     {
       "level": "INFO",
@@ -15,31 +15,35 @@
     },
     {
       "level": "INFO",
-      "message": "sdkFolder is C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk"
+      "message": "sdkFolder is C:\\Users\\start\\AppData\\Local\\Android\\Sdk"
     },
     {
       "level": "INFO",
-      "message": "Considering C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e by ndk.dir"
+      "message": "Because no explicit NDK was requested, the default version \u002720.0.5594570\u0027 for this Android Gradle Plugin will be used"
     },
     {
       "level": "INFO",
-      "message": "Considering C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk-bundle in SDK ndk-bundle folder"
+      "message": "Considering C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk-bundle in SDK ndk-bundle folder"
     },
     {
       "level": "INFO",
-      "message": "Considering C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620 in SDK ndk folder"
+      "message": "Considering C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570 in SDK ndk folder"
     },
     {
       "level": "INFO",
-      "message": "Considering C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393 in SDK ndk folder"
+      "message": "Considering C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393 in SDK ndk folder"
     },
     {
       "level": "INFO",
-      "message": "Considering C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e in SDK ndk folder"
+      "message": "Rejected C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk-bundle in SDK ndk-bundle folder because that location has no source.properties"
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (C:\\Users\\jeus5771\\AppData\\Local\\Android\\Sdk\\ndk\\android-ndk-r21e) which has version 21.4.7075529"
+      "message": "Rejected C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\25.1.8937393 in SDK ndk folder because that location has no source.properties"
+    },
+    {
+      "level": "INFO",
+      "message": "Found requested NDK version 20.0.5594570 at C:\\Users\\start\\AppData\\Local\\Android\\Sdk\\ndk\\20.0.5594570"
     }
   ]
 }

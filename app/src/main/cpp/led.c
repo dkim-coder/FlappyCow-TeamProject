@@ -18,8 +18,8 @@ Java_com_quchen_flappycow_Game_LedWrite(JNIEnv *env, jobject thiz, jint data) {
         printf("ex)./test_led 7 (0-255)\n");
         return -1;
     }*/
-
-    bytedata =data;
+  if (data == 0) bytedata= 255;
+  if (data == 1) bytedata = 0;
     if ((bytedata < 0) || (bytedata >0xff)){
         printf("Invalid range!\n");
         return -1;
@@ -49,6 +49,8 @@ Java_com_quchen_flappycow_Game_LedWrite(JNIEnv *env, jobject thiz, jint data) {
     //__android_log_print(ANDROID_LOG_ERROR, "Current LED Value : 0x%x\n", bytedata);
 
     printf("\n");
+
+
     usleep(1000);
     close(fd);
 
